@@ -1,0 +1,12 @@
+
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; padding: 32px; background: #f6f7f9; color: #17191f; font: 14px/1.5 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.demo { width: min(100%, 760px); margin: 0 auto; }
+.eyebrow { margin: 0 0 8px; color: #737985; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+h1 { margin: 0; font-size: clamp(24px, 5vw, 34px); line-height: 1.12; letter-spacing: -.035em; }
+.lead { max-width: 58ch; margin: 10px 0 24px; color: #676d78; }
+.panel { border: 1px solid #e2e5ea; border-radius: 18px; background: #fff; box-shadow: 0 12px 34px rgb(17 24 39 / 6%); }
+@media (prefers-color-scheme: dark) { body { background: #0b0c0f; color: #f2f4f7; } .eyebrow, .lead { color: #9299a6; } .panel { border-color: #25282f; background: #111318; box-shadow: none; } }
+
+.alias-list { overflow:hidden; } .alias-list>div { display:grid; grid-template-columns:36px minmax(130px,1fr) 1fr; align-items:center; gap:12px; padding:15px 18px; border-bottom:1px solid #e7e9ed; } .alias-list>div:last-child { border-bottom:0; } .alias-list .mx { font-size:22px; } .alias-list code { font-weight:700; } .alias-list span { color:#737985; } @media(prefers-color-scheme:dark){.alias-list>div{border-color:#25282f}}

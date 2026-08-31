@@ -7,6 +7,7 @@ const corePackageJson = JSON.parse(await readFile(new URL('../node_modules/@blck
 const out = new URL('../dist/', import.meta.url);
 const weights = ['thin', 'regular', 'bold'];
 const sizes = [12, 14, 16, 18, 20, 24, 32, 40, 48];
+const cdnRoot = `https://cdn.jsdelivr.net/npm/${packageJson.name}@${packageJson.version}/dist/`;
 
 const ensure = async (path) => mkdir(new URL(path, out), { recursive: true });
 await Promise.all([
@@ -65,6 +66,16 @@ const regularRule = (icon, prefix = './') => {
   return `${selectors} { --mx-icon-regular: url("${prefix}svg/regular/${icon.name}.svg"); }\n`;
 };
 
+const playgroundRule = (icon) => {
+  const aliases = icon.metadata?.aliases ?? [];
+  const selectors = [`.mx-${icon.name}`, ...aliases.map((alias) => `.mx-${alias}`)].join(',\n');
+  return `${selectors} {
+  --mx-icon-thin: url("${cdnRoot}svg/thin/${icon.name}.svg");
+  --mx-icon-regular: url("${cdnRoot}svg/regular/${icon.name}.svg");
+  --mx-icon-bold: url("${cdnRoot}svg/bold/${icon.name}.svg");
+}\n`;
+};
+
 for (const icon of coreIcons) {
   for (const weight of weights) {
     const svg = compactSvg(renderSvg(icon, { variant: weight, size: 24 }));
@@ -86,6 +97,12 @@ await writeFile(
 await writeFile(
   new URL('./regular.css', out),
   `${baseCss}\n${coreIcons.map((icon) => regularRule(icon)).join('\n')}`,
+  'utf8',
+);
+
+await writeFile(
+  new URL('./playground.css', out),
+  `${baseCss}\n${coreIcons.map((icon) => playgroundRule(icon)).join('\n')}`,
   'utf8',
 );
 

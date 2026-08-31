@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/blcklab/principia/main/public/schemas/v0.22/principia.schema.json",
+  "title": "Moexi CSS",
+  "description": "Use Moexi icons with simple CSS classes and no runtime JavaScript.",
+  "project": {
+    "label": "blcklab/moexi-css",
+    "url": "https://github.com/blcklab/moexi-css"
+  },
+  "projectFiles": {
+    "enabled": true
+  },
+  "playground": {
+    "enabled": true,
+    "manifest": ".principia/playground.json"
+  },
+  "ref": "main",
+  "content": {
+    "root": "docs"
+  },
+  "entry": "index.md",
+  "pages": [
+    {
+      "title": "Introduction",
+      "path": "index.md"
+    },
+    {
+      "title": "Usage",
+      "path": "USAGE.md"
+    },
+    {
+      "title": "Imports",
+      "path": "IMPORTS.md"
+    },
+    {
+      "title": "Accessibility",
+      "path": "ACCESSIBILITY.md"
+    },
+    {
+      "title": "Playground",
+      "path": "PLAYGROUND.md"
+    }
+  ],
+  "appearance": {
+    "theme": "principia"
+  }
+}

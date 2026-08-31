@@ -1,0 +1,94 @@
+{
+  "$schema": "https://raw.githubusercontent.com/blcklab/principia/main/public/schemas/v0.22/playground.schema.json",
+  "title": "Moexi CSS Playground",
+  "description": "Interactive CSS-only examples for @blcklab/moexi-css.",
+  "defaultPlugin": "moexi-css",
+  "plugins": [
+    {
+      "id": "moexi-css",
+      "label": "Moexi CSS",
+      "description": "256 Moexi icons as currentColor CSS masks with no runtime JavaScript.",
+      "adapter": "css",
+      "asset": {
+        "provider": "jsdelivr-npm",
+        "package": "@blcklab/moexi-css",
+        "version": "1.0.0",
+        "path": "dist/playground.css"
+      },
+      "examplesRoot": ".principia/playground/moexi-css/examples",
+      "defaultExample": "quick-start",
+      "examples": [
+        {
+          "id": "quick-start",
+          "label": "Quick Start",
+          "group": "Getting Started",
+          "order": 10,
+          "description": "Basic icon classes in a small application toolbar."
+        },
+        {
+          "id": "weights",
+          "label": "Weights",
+          "group": "Styling",
+          "order": 20,
+          "description": "Compare thin, regular, and bold icon weights."
+        },
+        {
+          "id": "sizes",
+          "label": "Sizes",
+          "group": "Styling",
+          "order": 30,
+          "description": "Use em sizing and the collision-safe mx-size-* helpers."
+        },
+        {
+          "id": "colors",
+          "label": "Colors",
+          "group": "Styling",
+          "order": 40,
+          "description": "Icons inherit currentColor like text."
+        },
+        {
+          "id": "buttons",
+          "label": "Buttons & Actions",
+          "group": "Patterns",
+          "order": 50,
+          "description": "Compose icons with buttons without extra JavaScript."
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "group": "Patterns",
+          "order": 60,
+          "description": "Use Moexi icons in a compact navigation surface."
+        },
+        {
+          "id": "status-cards",
+          "label": "Status Cards",
+          "group": "Patterns",
+          "order": 70,
+          "description": "Pair icons with common status and summary UI."
+        },
+        {
+          "id": "aliases",
+          "label": "Aliases",
+          "group": "Reference",
+          "order": 80,
+          "description": "Official alias classes resolve to canonical icons."
+        },
+        {
+          "id": "icon-grid",
+          "label": "Icon Grid",
+          "group": "Reference",
+          "order": 90,
+          "description": "Browse a curated cross-section of the 256-icon collection."
+        },
+        {
+          "id": "accessibility",
+          "label": "Accessibility",
+          "group": "Accessibility",
+          "order": 100,
+          "description": "Decorative and meaningful icon accessibility patterns."
+        }
+      ]
+    }
+  ]
+}

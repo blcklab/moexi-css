@@ -31,7 +31,8 @@
     "check:budgets": "node ./scripts/check-budgets.mjs",
     "check:package": "node ./scripts/check-package.mjs",
     "check:release": "node ./scripts/verify-release.mjs",
-    "check": "npm test && npm run check:budgets && npm run check:package && npm run check:release"
+    "check": "npm test && npm run check:budgets && npm run check:package && npm run check:release && npm run check:playground",
+    "check:playground": "node ./scripts/check-playground.mjs"
   },
   "engines": {
     "node": ">=20"

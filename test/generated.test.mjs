@@ -48,3 +48,10 @@ test('official aliases resolve to canonical class rules', async () => {
     assert.match(css, new RegExp(`\\.mx-${alias}(?:,| \\{)`));
   }
 });
+
+test('Principia preview stylesheet pins mask assets to the exact jsDelivr package version', async () => {
+  const css = await readFile(new URL('../dist/playground.css', import.meta.url), 'utf8');
+  assert.match(css, /https:\/\/cdn\.jsdelivr\.net\/npm\/@blcklab\/moexi-css@1\.0\.0\/dist\/svg\/regular\/search\.svg/);
+  assert.doesNotMatch(css, /url\(["']?\.\.?\//);
+  assert.doesNotMatch(css, /@font-face|data:image/i);
+});

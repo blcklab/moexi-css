@@ -112,6 +112,13 @@ Give standalone meaningful icons a label:
 
 CSS masks are intentionally monochrome. Use `@blcklab/moexi` or a framework adapter when you need Moexi color variants, layers, or custom icon definitions.
 
+## Docs
+
+- [Usage](./docs/USAGE.md)
+- [Imports](./docs/IMPORTS.md)
+- [Accessibility](./docs/ACCESSIBILITY.md)
+- [Playground](./docs/PLAYGROUND.md)
+
 ## License
 
 MIT
