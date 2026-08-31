@@ -1,0 +1,38 @@
+/* @blcklab/moexi-css 1.0.0 | Moexi core 1.1.1 | MIT */
+.mx {
+  --mx-icon: var(--mx-icon-regular);
+  display: inline-block;
+  inline-size: 1em;
+  block-size: 1em;
+  flex: 0 0 auto;
+  line-height: 1;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask-image: var(--mx-icon);
+  mask-image: var(--mx-icon);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  transform-origin: center;
+}
+.mx-thin { --mx-icon: var(--mx-icon-thin, var(--mx-icon-regular)); }
+.mx-regular { --mx-icon: var(--mx-icon-regular); }
+.mx-bold { --mx-icon: var(--mx-icon-bold, var(--mx-icon-regular)); }
+.mx-size-12 { inline-size: 12px; block-size: 12px; }
+.mx-size-14 { inline-size: 14px; block-size: 14px; }
+.mx-size-16 { inline-size: 16px; block-size: 16px; }
+.mx-size-18 { inline-size: 18px; block-size: 18px; }
+.mx-size-20 { inline-size: 20px; block-size: 20px; }
+.mx-size-24 { inline-size: 24px; block-size: 24px; }
+.mx-size-32 { inline-size: 32px; block-size: 32px; }
+.mx-size-40 { inline-size: 40px; block-size: 40px; }
+.mx-size-48 { inline-size: 48px; block-size: 48px; }
+
+.mx-hard-drive {
+  --mx-icon-thin: url("../svg/thin/hard-drive.svg");
+  --mx-icon-regular: url("../svg/regular/hard-drive.svg");
+  --mx-icon-bold: url("../svg/bold/hard-drive.svg");
+}

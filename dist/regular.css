@@ -1,0 +1,548 @@
+/* @blcklab/moexi-css 1.0.0 | Moexi core 1.1.1 | MIT */
+.mx {
+  --mx-icon: var(--mx-icon-regular);
+  display: inline-block;
+  inline-size: 1em;
+  block-size: 1em;
+  flex: 0 0 auto;
+  line-height: 1;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask-image: var(--mx-icon);
+  mask-image: var(--mx-icon);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  transform-origin: center;
+}
+.mx-thin { --mx-icon: var(--mx-icon-thin, var(--mx-icon-regular)); }
+.mx-regular { --mx-icon: var(--mx-icon-regular); }
+.mx-bold { --mx-icon: var(--mx-icon-bold, var(--mx-icon-regular)); }
+.mx-size-12 { inline-size: 12px; block-size: 12px; }
+.mx-size-14 { inline-size: 14px; block-size: 14px; }
+.mx-size-16 { inline-size: 16px; block-size: 16px; }
+.mx-size-18 { inline-size: 18px; block-size: 18px; }
+.mx-size-20 { inline-size: 20px; block-size: 20px; }
+.mx-size-24 { inline-size: 24px; block-size: 24px; }
+.mx-size-32 { inline-size: 32px; block-size: 32px; }
+.mx-size-40 { inline-size: 40px; block-size: 40px; }
+.mx-size-48 { inline-size: 48px; block-size: 48px; }
+
+.mx-check { --mx-icon-regular: url("./svg/regular/check.svg"); }
+
+.mx-close { --mx-icon-regular: url("./svg/regular/close.svg"); }
+
+.mx-eye { --mx-icon-regular: url("./svg/regular/eye.svg"); }
+
+.mx-filter { --mx-icon-regular: url("./svg/regular/filter.svg"); }
+
+.mx-help-circle { --mx-icon-regular: url("./svg/regular/help-circle.svg"); }
+
+.mx-info { --mx-icon-regular: url("./svg/regular/info.svg"); }
+
+.mx-lock { --mx-icon-regular: url("./svg/regular/lock.svg"); }
+
+.mx-menu { --mx-icon-regular: url("./svg/regular/menu.svg"); }
+
+.mx-minus { --mx-icon-regular: url("./svg/regular/minus.svg"); }
+
+.mx-more-horizontal { --mx-icon-regular: url("./svg/regular/more-horizontal.svg"); }
+
+.mx-more-vertical { --mx-icon-regular: url("./svg/regular/more-vertical.svg"); }
+
+.mx-plus { --mx-icon-regular: url("./svg/regular/plus.svg"); }
+
+.mx-refresh { --mx-icon-regular: url("./svg/regular/refresh.svg"); }
+
+.mx-search { --mx-icon-regular: url("./svg/regular/search.svg"); }
+
+.mx-settings { --mx-icon-regular: url("./svg/regular/settings.svg"); }
+
+.mx-trash { --mx-icon-regular: url("./svg/regular/trash.svg"); }
+
+.mx-unlock { --mx-icon-regular: url("./svg/regular/unlock.svg"); }
+
+.mx-user { --mx-icon-regular: url("./svg/regular/user.svg"); }
+
+.mx-users { --mx-icon-regular: url("./svg/regular/users.svg"); }
+
+.mx-warning { --mx-icon-regular: url("./svg/regular/warning.svg"); }
+
+.mx-arrow-down { --mx-icon-regular: url("./svg/regular/arrow-down.svg"); }
+
+.mx-arrow-left { --mx-icon-regular: url("./svg/regular/arrow-left.svg"); }
+
+.mx-arrow-right { --mx-icon-regular: url("./svg/regular/arrow-right.svg"); }
+
+.mx-arrow-up { --mx-icon-regular: url("./svg/regular/arrow-up.svg"); }
+
+.mx-chevron-down { --mx-icon-regular: url("./svg/regular/chevron-down.svg"); }
+
+.mx-chevron-left { --mx-icon-regular: url("./svg/regular/chevron-left.svg"); }
+
+.mx-chevron-right { --mx-icon-regular: url("./svg/regular/chevron-right.svg"); }
+
+.mx-chevron-up { --mx-icon-regular: url("./svg/regular/chevron-up.svg"); }
+
+.mx-compass { --mx-icon-regular: url("./svg/regular/compass.svg"); }
+
+.mx-corner-up-left { --mx-icon-regular: url("./svg/regular/corner-up-left.svg"); }
+
+.mx-corner-up-right { --mx-icon-regular: url("./svg/regular/corner-up-right.svg"); }
+
+.mx-external-link { --mx-icon-regular: url("./svg/regular/external-link.svg"); }
+
+.mx-home { --mx-icon-regular: url("./svg/regular/home.svg"); }
+
+.mx-log-in { --mx-icon-regular: url("./svg/regular/log-in.svg"); }
+
+.mx-log-out { --mx-icon-regular: url("./svg/regular/log-out.svg"); }
+
+.mx-map-pin { --mx-icon-regular: url("./svg/regular/map-pin.svg"); }
+
+.mx-maximize { --mx-icon-regular: url("./svg/regular/maximize.svg"); }
+
+.mx-minimize { --mx-icon-regular: url("./svg/regular/minimize.svg"); }
+
+.mx-move { --mx-icon-regular: url("./svg/regular/move.svg"); }
+
+.mx-navigation { --mx-icon-regular: url("./svg/regular/navigation.svg"); }
+
+.mx-api { --mx-icon-regular: url("./svg/regular/api.svg"); }
+
+.mx-binary { --mx-icon-regular: url("./svg/regular/binary.svg"); }
+
+.mx-braces { --mx-icon-regular: url("./svg/regular/braces.svg"); }
+
+.mx-brackets { --mx-icon-regular: url("./svg/regular/brackets.svg"); }
+
+.mx-bug { --mx-icon-regular: url("./svg/regular/bug.svg"); }
+
+.mx-code { --mx-icon-regular: url("./svg/regular/code.svg"); }
+
+.mx-command { --mx-icon-regular: url("./svg/regular/command.svg"); }
+
+.mx-cpu { --mx-icon-regular: url("./svg/regular/cpu.svg"); }
+
+.mx-database { --mx-icon-regular: url("./svg/regular/database.svg"); }
+
+.mx-function { --mx-icon-regular: url("./svg/regular/function.svg"); }
+
+.mx-git-branch { --mx-icon-regular: url("./svg/regular/git-branch.svg"); }
+
+.mx-git-commit { --mx-icon-regular: url("./svg/regular/git-commit.svg"); }
+
+.mx-hard-drive { --mx-icon-regular: url("./svg/regular/hard-drive.svg"); }
+
+.mx-layers { --mx-icon-regular: url("./svg/regular/layers.svg"); }
+
+.mx-network { --mx-icon-regular: url("./svg/regular/network.svg"); }
+
+.mx-package { --mx-icon-regular: url("./svg/regular/package.svg"); }
+
+.mx-server { --mx-icon-regular: url("./svg/regular/server.svg"); }
+
+.mx-terminal,
+.mx-console,
+.mx-shell { --mx-icon-regular: url("./svg/regular/terminal.svg"); }
+
+.mx-variable { --mx-icon-regular: url("./svg/regular/variable.svg"); }
+
+.mx-webhook { --mx-icon-regular: url("./svg/regular/webhook.svg"); }
+
+.mx-archive { --mx-icon-regular: url("./svg/regular/archive.svg"); }
+
+.mx-clipboard { --mx-icon-regular: url("./svg/regular/clipboard.svg"); }
+
+.mx-clipboard-check { --mx-icon-regular: url("./svg/regular/clipboard-check.svg"); }
+
+.mx-copy { --mx-icon-regular: url("./svg/regular/copy.svg"); }
+
+.mx-download { --mx-icon-regular: url("./svg/regular/download.svg"); }
+
+.mx-file { --mx-icon-regular: url("./svg/regular/file.svg"); }
+
+.mx-file-check { --mx-icon-regular: url("./svg/regular/file-check.svg"); }
+
+.mx-file-code { --mx-icon-regular: url("./svg/regular/file-code.svg"); }
+
+.mx-file-minus { --mx-icon-regular: url("./svg/regular/file-minus.svg"); }
+
+.mx-file-plus { --mx-icon-regular: url("./svg/regular/file-plus.svg"); }
+
+.mx-file-search { --mx-icon-regular: url("./svg/regular/file-search.svg"); }
+
+.mx-file-text { --mx-icon-regular: url("./svg/regular/file-text.svg"); }
+
+.mx-folder { --mx-icon-regular: url("./svg/regular/folder.svg"); }
+
+.mx-folder-minus { --mx-icon-regular: url("./svg/regular/folder-minus.svg"); }
+
+.mx-folder-open { --mx-icon-regular: url("./svg/regular/folder-open.svg"); }
+
+.mx-folder-plus { --mx-icon-regular: url("./svg/regular/folder-plus.svg"); }
+
+.mx-image { --mx-icon-regular: url("./svg/regular/image.svg"); }
+
+.mx-paperclip { --mx-icon-regular: url("./svg/regular/paperclip.svg"); }
+
+.mx-save { --mx-icon-regular: url("./svg/regular/save.svg"); }
+
+.mx-upload { --mx-icon-regular: url("./svg/regular/upload.svg"); }
+
+.mx-bell { --mx-icon-regular: url("./svg/regular/bell.svg"); }
+
+.mx-bookmark { --mx-icon-regular: url("./svg/regular/bookmark.svg"); }
+
+.mx-circle { --mx-icon-regular: url("./svg/regular/circle.svg"); }
+
+.mx-coffee { --mx-icon-regular: url("./svg/regular/coffee.svg"); }
+
+.mx-crown { --mx-icon-regular: url("./svg/regular/crown.svg"); }
+
+.mx-diamond { --mx-icon-regular: url("./svg/regular/diamond.svg"); }
+
+.mx-flag { --mx-icon-regular: url("./svg/regular/flag.svg"); }
+
+.mx-flame { --mx-icon-regular: url("./svg/regular/flame.svg"); }
+
+.mx-gift { --mx-icon-regular: url("./svg/regular/gift.svg"); }
+
+.mx-heart,
+.mx-favorite { --mx-icon-regular: url("./svg/regular/heart.svg"); }
+
+.mx-key { --mx-icon-regular: url("./svg/regular/key.svg"); }
+
+.mx-lightning { --mx-icon-regular: url("./svg/regular/lightning.svg"); }
+
+.mx-moon { --mx-icon-regular: url("./svg/regular/moon.svg"); }
+
+.mx-shield { --mx-icon-regular: url("./svg/regular/shield.svg"); }
+
+.mx-sparkle,
+.mx-shine { --mx-icon-regular: url("./svg/regular/sparkle.svg"); }
+
+.mx-square { --mx-icon-regular: url("./svg/regular/square.svg"); }
+
+.mx-star { --mx-icon-regular: url("./svg/regular/star.svg"); }
+
+.mx-sun { --mx-icon-regular: url("./svg/regular/sun.svg"); }
+
+.mx-tag { --mx-icon-regular: url("./svg/regular/tag.svg"); }
+
+.mx-triangle { --mx-icon-regular: url("./svg/regular/triangle.svg"); }
+
+.mx-address-book { --mx-icon-regular: url("./svg/regular/address-book.svg"); }
+
+.mx-at-sign { --mx-icon-regular: url("./svg/regular/at-sign.svg"); }
+
+.mx-chat-heart { --mx-icon-regular: url("./svg/regular/chat-heart.svg"); }
+
+.mx-contact { --mx-icon-regular: url("./svg/regular/contact.svg"); }
+
+.mx-inbox { --mx-icon-regular: url("./svg/regular/inbox.svg"); }
+
+.mx-link { --mx-icon-regular: url("./svg/regular/link.svg"); }
+
+.mx-mail { --mx-icon-regular: url("./svg/regular/mail.svg"); }
+
+.mx-mail-open { --mx-icon-regular: url("./svg/regular/mail-open.svg"); }
+
+.mx-megaphone { --mx-icon-regular: url("./svg/regular/megaphone.svg"); }
+
+.mx-message-circle { --mx-icon-regular: url("./svg/regular/message-circle.svg"); }
+
+.mx-message-square { --mx-icon-regular: url("./svg/regular/message-square.svg"); }
+
+.mx-messages { --mx-icon-regular: url("./svg/regular/messages.svg"); }
+
+.mx-mic { --mx-icon-regular: url("./svg/regular/mic.svg"); }
+
+.mx-mic-off { --mx-icon-regular: url("./svg/regular/mic-off.svg"); }
+
+.mx-phone { --mx-icon-regular: url("./svg/regular/phone.svg"); }
+
+.mx-phone-call { --mx-icon-regular: url("./svg/regular/phone-call.svg"); }
+
+.mx-phone-incoming { --mx-icon-regular: url("./svg/regular/phone-incoming.svg"); }
+
+.mx-phone-off { --mx-icon-regular: url("./svg/regular/phone-off.svg"); }
+
+.mx-phone-outgoing { --mx-icon-regular: url("./svg/regular/phone-outgoing.svg"); }
+
+.mx-radio { --mx-icon-regular: url("./svg/regular/radio.svg"); }
+
+.mx-rss { --mx-icon-regular: url("./svg/regular/rss.svg"); }
+
+.mx-send { --mx-icon-regular: url("./svg/regular/send.svg"); }
+
+.mx-share { --mx-icon-regular: url("./svg/regular/share.svg"); }
+
+.mx-share-2 { --mx-icon-regular: url("./svg/regular/share-2.svg"); }
+
+.mx-unlink { --mx-icon-regular: url("./svg/regular/unlink.svg"); }
+
+.mx-voicemail { --mx-icon-regular: url("./svg/regular/voicemail.svg"); }
+
+.mx-camera { --mx-icon-regular: url("./svg/regular/camera.svg"); }
+
+.mx-camera-off { --mx-icon-regular: url("./svg/regular/camera-off.svg"); }
+
+.mx-disc { --mx-icon-regular: url("./svg/regular/disc.svg"); }
+
+.mx-equalizer { --mx-icon-regular: url("./svg/regular/equalizer.svg"); }
+
+.mx-fast-forward { --mx-icon-regular: url("./svg/regular/fast-forward.svg"); }
+
+.mx-film { --mx-icon-regular: url("./svg/regular/film.svg"); }
+
+.mx-headphones { --mx-icon-regular: url("./svg/regular/headphones.svg"); }
+
+.mx-music { --mx-icon-regular: url("./svg/regular/music.svg"); }
+
+.mx-music-2 { --mx-icon-regular: url("./svg/regular/music-2.svg"); }
+
+.mx-pause { --mx-icon-regular: url("./svg/regular/pause.svg"); }
+
+.mx-play { --mx-icon-regular: url("./svg/regular/play.svg"); }
+
+.mx-playlist { --mx-icon-regular: url("./svg/regular/playlist.svg"); }
+
+.mx-repeat { --mx-icon-regular: url("./svg/regular/repeat.svg"); }
+
+.mx-repeat-1 { --mx-icon-regular: url("./svg/regular/repeat-1.svg"); }
+
+.mx-rewind { --mx-icon-regular: url("./svg/regular/rewind.svg"); }
+
+.mx-shuffle { --mx-icon-regular: url("./svg/regular/shuffle.svg"); }
+
+.mx-skip-back { --mx-icon-regular: url("./svg/regular/skip-back.svg"); }
+
+.mx-skip-forward { --mx-icon-regular: url("./svg/regular/skip-forward.svg"); }
+
+.mx-speaker { --mx-icon-regular: url("./svg/regular/speaker.svg"); }
+
+.mx-stop { --mx-icon-regular: url("./svg/regular/stop.svg"); }
+
+.mx-video { --mx-icon-regular: url("./svg/regular/video.svg"); }
+
+.mx-video-off { --mx-icon-regular: url("./svg/regular/video-off.svg"); }
+
+.mx-volume { --mx-icon-regular: url("./svg/regular/volume.svg"); }
+
+.mx-volume-1 { --mx-icon-regular: url("./svg/regular/volume-1.svg"); }
+
+.mx-volume-2 { --mx-icon-regular: url("./svg/regular/volume-2.svg"); }
+
+.mx-volume-x { --mx-icon-regular: url("./svg/regular/volume-x.svg"); }
+
+.mx-battery { --mx-icon-regular: url("./svg/regular/battery.svg"); }
+
+.mx-battery-charging { --mx-icon-regular: url("./svg/regular/battery-charging.svg"); }
+
+.mx-battery-full { --mx-icon-regular: url("./svg/regular/battery-full.svg"); }
+
+.mx-battery-low { --mx-icon-regular: url("./svg/regular/battery-low.svg"); }
+
+.mx-battery-medium { --mx-icon-regular: url("./svg/regular/battery-medium.svg"); }
+
+.mx-bluetooth { --mx-icon-regular: url("./svg/regular/bluetooth.svg"); }
+
+.mx-gamepad { --mx-icon-regular: url("./svg/regular/gamepad.svg"); }
+
+.mx-keyboard { --mx-icon-regular: url("./svg/regular/keyboard.svg"); }
+
+.mx-laptop { --mx-icon-regular: url("./svg/regular/laptop.svg"); }
+
+.mx-memory-card { --mx-icon-regular: url("./svg/regular/memory-card.svg"); }
+
+.mx-monitor { --mx-icon-regular: url("./svg/regular/monitor.svg"); }
+
+.mx-mouse { --mx-icon-regular: url("./svg/regular/mouse.svg"); }
+
+.mx-plug { --mx-icon-regular: url("./svg/regular/plug.svg"); }
+
+.mx-power { --mx-icon-regular: url("./svg/regular/power.svg"); }
+
+.mx-printer { --mx-icon-regular: url("./svg/regular/printer.svg"); }
+
+.mx-qr-code { --mx-icon-regular: url("./svg/regular/qr-code.svg"); }
+
+.mx-router { --mx-icon-regular: url("./svg/regular/router.svg"); }
+
+.mx-scan { --mx-icon-regular: url("./svg/regular/scan.svg"); }
+
+.mx-smartphone { --mx-icon-regular: url("./svg/regular/smartphone.svg"); }
+
+.mx-tablet { --mx-icon-regular: url("./svg/regular/tablet.svg"); }
+
+.mx-tv { --mx-icon-regular: url("./svg/regular/tv.svg"); }
+
+.mx-usb { --mx-icon-regular: url("./svg/regular/usb.svg"); }
+
+.mx-watch { --mx-icon-regular: url("./svg/regular/watch.svg"); }
+
+.mx-webcam { --mx-icon-regular: url("./svg/regular/webcam.svg"); }
+
+.mx-wifi { --mx-icon-regular: url("./svg/regular/wifi.svg"); }
+
+.mx-wifi-off { --mx-icon-regular: url("./svg/regular/wifi-off.svg"); }
+
+.mx-cloud { --mx-icon-regular: url("./svg/regular/cloud.svg"); }
+
+.mx-cloud-lightning { --mx-icon-regular: url("./svg/regular/cloud-lightning.svg"); }
+
+.mx-cloud-moon { --mx-icon-regular: url("./svg/regular/cloud-moon.svg"); }
+
+.mx-cloud-rain { --mx-icon-regular: url("./svg/regular/cloud-rain.svg"); }
+
+.mx-cloud-snow { --mx-icon-regular: url("./svg/regular/cloud-snow.svg"); }
+
+.mx-cloud-sun { --mx-icon-regular: url("./svg/regular/cloud-sun.svg"); }
+
+.mx-droplet { --mx-icon-regular: url("./svg/regular/droplet.svg"); }
+
+.mx-droplets { --mx-icon-regular: url("./svg/regular/droplets.svg"); }
+
+.mx-earth { --mx-icon-regular: url("./svg/regular/earth.svg"); }
+
+.mx-flower { --mx-icon-regular: url("./svg/regular/flower.svg"); }
+
+.mx-globe { --mx-icon-regular: url("./svg/regular/globe.svg"); }
+
+.mx-leaf { --mx-icon-regular: url("./svg/regular/leaf.svg"); }
+
+.mx-mountain { --mx-icon-regular: url("./svg/regular/mountain.svg"); }
+
+.mx-rain { --mx-icon-regular: url("./svg/regular/rain.svg"); }
+
+.mx-rainbow { --mx-icon-regular: url("./svg/regular/rainbow.svg"); }
+
+.mx-snowflake { --mx-icon-regular: url("./svg/regular/snowflake.svg"); }
+
+.mx-snowman { --mx-icon-regular: url("./svg/regular/snowman.svg"); }
+
+.mx-sprout { --mx-icon-regular: url("./svg/regular/sprout.svg"); }
+
+.mx-sunrise { --mx-icon-regular: url("./svg/regular/sunrise.svg"); }
+
+.mx-sunset { --mx-icon-regular: url("./svg/regular/sunset.svg"); }
+
+.mx-thermometer { --mx-icon-regular: url("./svg/regular/thermometer.svg"); }
+
+.mx-tornado { --mx-icon-regular: url("./svg/regular/tornado.svg"); }
+
+.mx-tree { --mx-icon-regular: url("./svg/regular/tree.svg"); }
+
+.mx-umbrella { --mx-icon-regular: url("./svg/regular/umbrella.svg"); }
+
+.mx-waves { --mx-icon-regular: url("./svg/regular/waves.svg"); }
+
+.mx-wind { --mx-icon-regular: url("./svg/regular/wind.svg"); }
+
+.mx-badge-percent { --mx-icon-regular: url("./svg/regular/badge-percent.svg"); }
+
+.mx-banknote { --mx-icon-regular: url("./svg/regular/banknote.svg"); }
+
+.mx-barcode { --mx-icon-regular: url("./svg/regular/barcode.svg"); }
+
+.mx-basket { --mx-icon-regular: url("./svg/regular/basket.svg"); }
+
+.mx-briefcase { --mx-icon-regular: url("./svg/regular/briefcase.svg"); }
+
+.mx-building { --mx-icon-regular: url("./svg/regular/building.svg"); }
+
+.mx-calculator { --mx-icon-regular: url("./svg/regular/calculator.svg"); }
+
+.mx-chart-bar { --mx-icon-regular: url("./svg/regular/chart-bar.svg"); }
+
+.mx-chart-line { --mx-icon-regular: url("./svg/regular/chart-line.svg"); }
+
+.mx-chart-pie { --mx-icon-regular: url("./svg/regular/chart-pie.svg"); }
+
+.mx-coin { --mx-icon-regular: url("./svg/regular/coin.svg"); }
+
+.mx-coins { --mx-icon-regular: url("./svg/regular/coins.svg"); }
+
+.mx-coupon { --mx-icon-regular: url("./svg/regular/coupon.svg"); }
+
+.mx-credit-card { --mx-icon-regular: url("./svg/regular/credit-card.svg"); }
+
+.mx-dollar-sign { --mx-icon-regular: url("./svg/regular/dollar-sign.svg"); }
+
+.mx-handshake { --mx-icon-regular: url("./svg/regular/handshake.svg"); }
+
+.mx-percent { --mx-icon-regular: url("./svg/regular/percent.svg"); }
+
+.mx-receipt { --mx-icon-regular: url("./svg/regular/receipt.svg"); }
+
+.mx-shopping-bag { --mx-icon-regular: url("./svg/regular/shopping-bag.svg"); }
+
+.mx-shopping-cart { --mx-icon-regular: url("./svg/regular/shopping-cart.svg"); }
+
+.mx-store { --mx-icon-regular: url("./svg/regular/store.svg"); }
+
+.mx-storefront { --mx-icon-regular: url("./svg/regular/storefront.svg"); }
+
+.mx-ticket { --mx-icon-regular: url("./svg/regular/ticket.svg"); }
+
+.mx-trending-down { --mx-icon-regular: url("./svg/regular/trending-down.svg"); }
+
+.mx-trending-up { --mx-icon-regular: url("./svg/regular/trending-up.svg"); }
+
+.mx-wallet { --mx-icon-regular: url("./svg/regular/wallet.svg"); }
+
+.mx-alarm-clock { --mx-icon-regular: url("./svg/regular/alarm-clock.svg"); }
+
+.mx-book { --mx-icon-regular: url("./svg/regular/book.svg"); }
+
+.mx-book-open { --mx-icon-regular: url("./svg/regular/book-open.svg"); }
+
+.mx-cake { --mx-icon-regular: url("./svg/regular/cake.svg"); }
+
+.mx-calendar { --mx-icon-regular: url("./svg/regular/calendar.svg"); }
+
+.mx-calendar-check { --mx-icon-regular: url("./svg/regular/calendar-check.svg"); }
+
+.mx-calendar-days { --mx-icon-regular: url("./svg/regular/calendar-days.svg"); }
+
+.mx-calendar-plus { --mx-icon-regular: url("./svg/regular/calendar-plus.svg"); }
+
+.mx-calendar-x { --mx-icon-regular: url("./svg/regular/calendar-x.svg"); }
+
+.mx-clock { --mx-icon-regular: url("./svg/regular/clock.svg"); }
+
+.mx-dumbbell { --mx-icon-regular: url("./svg/regular/dumbbell.svg"); }
+
+.mx-frown { --mx-icon-regular: url("./svg/regular/frown.svg"); }
+
+.mx-graduation-cap { --mx-icon-regular: url("./svg/regular/graduation-cap.svg"); }
+
+.mx-hourglass { --mx-icon-regular: url("./svg/regular/hourglass.svg"); }
+
+.mx-location { --mx-icon-regular: url("./svg/regular/location.svg"); }
+
+.mx-map { --mx-icon-regular: url("./svg/regular/map.svg"); }
+
+.mx-medal { --mx-icon-regular: url("./svg/regular/medal.svg"); }
+
+.mx-meh { --mx-icon-regular: url("./svg/regular/meh.svg"); }
+
+.mx-palette { --mx-icon-regular: url("./svg/regular/palette.svg"); }
+
+.mx-party-popper { --mx-icon-regular: url("./svg/regular/party-popper.svg"); }
+
+.mx-pin { --mx-icon-regular: url("./svg/regular/pin.svg"); }
+
+.mx-rocket { --mx-icon-regular: url("./svg/regular/rocket.svg"); }
+
+.mx-smile { --mx-icon-regular: url("./svg/regular/smile.svg"); }
+
+.mx-target { --mx-icon-regular: url("./svg/regular/target.svg"); }
+
+.mx-timer { --mx-icon-regular: url("./svg/regular/timer.svg"); }
+
+.mx-trophy { --mx-icon-regular: url("./svg/regular/trophy.svg"); }

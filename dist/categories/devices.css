@@ -1,0 +1,188 @@
+/* @blcklab/moexi-css 1.0.0 | Moexi core 1.1.1 | MIT */
+.mx {
+  --mx-icon: var(--mx-icon-regular);
+  display: inline-block;
+  inline-size: 1em;
+  block-size: 1em;
+  flex: 0 0 auto;
+  line-height: 1;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask-image: var(--mx-icon);
+  mask-image: var(--mx-icon);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  transform-origin: center;
+}
+.mx-thin { --mx-icon: var(--mx-icon-thin, var(--mx-icon-regular)); }
+.mx-regular { --mx-icon: var(--mx-icon-regular); }
+.mx-bold { --mx-icon: var(--mx-icon-bold, var(--mx-icon-regular)); }
+.mx-size-12 { inline-size: 12px; block-size: 12px; }
+.mx-size-14 { inline-size: 14px; block-size: 14px; }
+.mx-size-16 { inline-size: 16px; block-size: 16px; }
+.mx-size-18 { inline-size: 18px; block-size: 18px; }
+.mx-size-20 { inline-size: 20px; block-size: 20px; }
+.mx-size-24 { inline-size: 24px; block-size: 24px; }
+.mx-size-32 { inline-size: 32px; block-size: 32px; }
+.mx-size-40 { inline-size: 40px; block-size: 40px; }
+.mx-size-48 { inline-size: 48px; block-size: 48px; }
+
+.mx-battery {
+  --mx-icon-thin: url("../svg/thin/battery.svg");
+  --mx-icon-regular: url("../svg/regular/battery.svg");
+  --mx-icon-bold: url("../svg/bold/battery.svg");
+}
+
+.mx-battery-charging {
+  --mx-icon-thin: url("../svg/thin/battery-charging.svg");
+  --mx-icon-regular: url("../svg/regular/battery-charging.svg");
+  --mx-icon-bold: url("../svg/bold/battery-charging.svg");
+}
+
+.mx-battery-full {
+  --mx-icon-thin: url("../svg/thin/battery-full.svg");
+  --mx-icon-regular: url("../svg/regular/battery-full.svg");
+  --mx-icon-bold: url("../svg/bold/battery-full.svg");
+}
+
+.mx-battery-low {
+  --mx-icon-thin: url("../svg/thin/battery-low.svg");
+  --mx-icon-regular: url("../svg/regular/battery-low.svg");
+  --mx-icon-bold: url("../svg/bold/battery-low.svg");
+}
+
+.mx-battery-medium {
+  --mx-icon-thin: url("../svg/thin/battery-medium.svg");
+  --mx-icon-regular: url("../svg/regular/battery-medium.svg");
+  --mx-icon-bold: url("../svg/bold/battery-medium.svg");
+}
+
+.mx-bluetooth {
+  --mx-icon-thin: url("../svg/thin/bluetooth.svg");
+  --mx-icon-regular: url("../svg/regular/bluetooth.svg");
+  --mx-icon-bold: url("../svg/bold/bluetooth.svg");
+}
+
+.mx-gamepad {
+  --mx-icon-thin: url("../svg/thin/gamepad.svg");
+  --mx-icon-regular: url("../svg/regular/gamepad.svg");
+  --mx-icon-bold: url("../svg/bold/gamepad.svg");
+}
+
+.mx-keyboard {
+  --mx-icon-thin: url("../svg/thin/keyboard.svg");
+  --mx-icon-regular: url("../svg/regular/keyboard.svg");
+  --mx-icon-bold: url("../svg/bold/keyboard.svg");
+}
+
+.mx-laptop {
+  --mx-icon-thin: url("../svg/thin/laptop.svg");
+  --mx-icon-regular: url("../svg/regular/laptop.svg");
+  --mx-icon-bold: url("../svg/bold/laptop.svg");
+}
+
+.mx-memory-card {
+  --mx-icon-thin: url("../svg/thin/memory-card.svg");
+  --mx-icon-regular: url("../svg/regular/memory-card.svg");
+  --mx-icon-bold: url("../svg/bold/memory-card.svg");
+}
+
+.mx-monitor {
+  --mx-icon-thin: url("../svg/thin/monitor.svg");
+  --mx-icon-regular: url("../svg/regular/monitor.svg");
+  --mx-icon-bold: url("../svg/bold/monitor.svg");
+}
+
+.mx-mouse {
+  --mx-icon-thin: url("../svg/thin/mouse.svg");
+  --mx-icon-regular: url("../svg/regular/mouse.svg");
+  --mx-icon-bold: url("../svg/bold/mouse.svg");
+}
+
+.mx-plug {
+  --mx-icon-thin: url("../svg/thin/plug.svg");
+  --mx-icon-regular: url("../svg/regular/plug.svg");
+  --mx-icon-bold: url("../svg/bold/plug.svg");
+}
+
+.mx-power {
+  --mx-icon-thin: url("../svg/thin/power.svg");
+  --mx-icon-regular: url("../svg/regular/power.svg");
+  --mx-icon-bold: url("../svg/bold/power.svg");
+}
+
+.mx-printer {
+  --mx-icon-thin: url("../svg/thin/printer.svg");
+  --mx-icon-regular: url("../svg/regular/printer.svg");
+  --mx-icon-bold: url("../svg/bold/printer.svg");
+}
+
+.mx-qr-code {
+  --mx-icon-thin: url("../svg/thin/qr-code.svg");
+  --mx-icon-regular: url("../svg/regular/qr-code.svg");
+  --mx-icon-bold: url("../svg/bold/qr-code.svg");
+}
+
+.mx-router {
+  --mx-icon-thin: url("../svg/thin/router.svg");
+  --mx-icon-regular: url("../svg/regular/router.svg");
+  --mx-icon-bold: url("../svg/bold/router.svg");
+}
+
+.mx-scan {
+  --mx-icon-thin: url("../svg/thin/scan.svg");
+  --mx-icon-regular: url("../svg/regular/scan.svg");
+  --mx-icon-bold: url("../svg/bold/scan.svg");
+}
+
+.mx-smartphone {
+  --mx-icon-thin: url("../svg/thin/smartphone.svg");
+  --mx-icon-regular: url("../svg/regular/smartphone.svg");
+  --mx-icon-bold: url("../svg/bold/smartphone.svg");
+}
+
+.mx-tablet {
+  --mx-icon-thin: url("../svg/thin/tablet.svg");
+  --mx-icon-regular: url("../svg/regular/tablet.svg");
+  --mx-icon-bold: url("../svg/bold/tablet.svg");
+}
+
+.mx-tv {
+  --mx-icon-thin: url("../svg/thin/tv.svg");
+  --mx-icon-regular: url("../svg/regular/tv.svg");
+  --mx-icon-bold: url("../svg/bold/tv.svg");
+}
+
+.mx-usb {
+  --mx-icon-thin: url("../svg/thin/usb.svg");
+  --mx-icon-regular: url("../svg/regular/usb.svg");
+  --mx-icon-bold: url("../svg/bold/usb.svg");
+}
+
+.mx-watch {
+  --mx-icon-thin: url("../svg/thin/watch.svg");
+  --mx-icon-regular: url("../svg/regular/watch.svg");
+  --mx-icon-bold: url("../svg/bold/watch.svg");
+}
+
+.mx-webcam {
+  --mx-icon-thin: url("../svg/thin/webcam.svg");
+  --mx-icon-regular: url("../svg/regular/webcam.svg");
+  --mx-icon-bold: url("../svg/bold/webcam.svg");
+}
+
+.mx-wifi {
+  --mx-icon-thin: url("../svg/thin/wifi.svg");
+  --mx-icon-regular: url("../svg/regular/wifi.svg");
+  --mx-icon-bold: url("../svg/bold/wifi.svg");
+}
+
+.mx-wifi-off {
+  --mx-icon-thin: url("../svg/thin/wifi-off.svg");
+  --mx-icon-regular: url("../svg/regular/wifi-off.svg");
+  --mx-icon-bold: url("../svg/bold/wifi-off.svg");
+}

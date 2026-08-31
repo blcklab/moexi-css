@@ -1,0 +1,152 @@
+/* @blcklab/moexi-css 1.0.0 | Moexi core 1.1.1 | MIT */
+.mx {
+  --mx-icon: var(--mx-icon-regular);
+  display: inline-block;
+  inline-size: 1em;
+  block-size: 1em;
+  flex: 0 0 auto;
+  line-height: 1;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask-image: var(--mx-icon);
+  mask-image: var(--mx-icon);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  transform-origin: center;
+}
+.mx-thin { --mx-icon: var(--mx-icon-thin, var(--mx-icon-regular)); }
+.mx-regular { --mx-icon: var(--mx-icon-regular); }
+.mx-bold { --mx-icon: var(--mx-icon-bold, var(--mx-icon-regular)); }
+.mx-size-12 { inline-size: 12px; block-size: 12px; }
+.mx-size-14 { inline-size: 14px; block-size: 14px; }
+.mx-size-16 { inline-size: 16px; block-size: 16px; }
+.mx-size-18 { inline-size: 18px; block-size: 18px; }
+.mx-size-20 { inline-size: 20px; block-size: 20px; }
+.mx-size-24 { inline-size: 24px; block-size: 24px; }
+.mx-size-32 { inline-size: 32px; block-size: 32px; }
+.mx-size-40 { inline-size: 40px; block-size: 40px; }
+.mx-size-48 { inline-size: 48px; block-size: 48px; }
+
+.mx-check {
+  --mx-icon-thin: url("../svg/thin/check.svg");
+  --mx-icon-regular: url("../svg/regular/check.svg");
+  --mx-icon-bold: url("../svg/bold/check.svg");
+}
+
+.mx-close {
+  --mx-icon-thin: url("../svg/thin/close.svg");
+  --mx-icon-regular: url("../svg/regular/close.svg");
+  --mx-icon-bold: url("../svg/bold/close.svg");
+}
+
+.mx-eye {
+  --mx-icon-thin: url("../svg/thin/eye.svg");
+  --mx-icon-regular: url("../svg/regular/eye.svg");
+  --mx-icon-bold: url("../svg/bold/eye.svg");
+}
+
+.mx-filter {
+  --mx-icon-thin: url("../svg/thin/filter.svg");
+  --mx-icon-regular: url("../svg/regular/filter.svg");
+  --mx-icon-bold: url("../svg/bold/filter.svg");
+}
+
+.mx-help-circle {
+  --mx-icon-thin: url("../svg/thin/help-circle.svg");
+  --mx-icon-regular: url("../svg/regular/help-circle.svg");
+  --mx-icon-bold: url("../svg/bold/help-circle.svg");
+}
+
+.mx-info {
+  --mx-icon-thin: url("../svg/thin/info.svg");
+  --mx-icon-regular: url("../svg/regular/info.svg");
+  --mx-icon-bold: url("../svg/bold/info.svg");
+}
+
+.mx-lock {
+  --mx-icon-thin: url("../svg/thin/lock.svg");
+  --mx-icon-regular: url("../svg/regular/lock.svg");
+  --mx-icon-bold: url("../svg/bold/lock.svg");
+}
+
+.mx-menu {
+  --mx-icon-thin: url("../svg/thin/menu.svg");
+  --mx-icon-regular: url("../svg/regular/menu.svg");
+  --mx-icon-bold: url("../svg/bold/menu.svg");
+}
+
+.mx-minus {
+  --mx-icon-thin: url("../svg/thin/minus.svg");
+  --mx-icon-regular: url("../svg/regular/minus.svg");
+  --mx-icon-bold: url("../svg/bold/minus.svg");
+}
+
+.mx-more-horizontal {
+  --mx-icon-thin: url("../svg/thin/more-horizontal.svg");
+  --mx-icon-regular: url("../svg/regular/more-horizontal.svg");
+  --mx-icon-bold: url("../svg/bold/more-horizontal.svg");
+}
+
+.mx-more-vertical {
+  --mx-icon-thin: url("../svg/thin/more-vertical.svg");
+  --mx-icon-regular: url("../svg/regular/more-vertical.svg");
+  --mx-icon-bold: url("../svg/bold/more-vertical.svg");
+}
+
+.mx-plus {
+  --mx-icon-thin: url("../svg/thin/plus.svg");
+  --mx-icon-regular: url("../svg/regular/plus.svg");
+  --mx-icon-bold: url("../svg/bold/plus.svg");
+}
+
+.mx-refresh {
+  --mx-icon-thin: url("../svg/thin/refresh.svg");
+  --mx-icon-regular: url("../svg/regular/refresh.svg");
+  --mx-icon-bold: url("../svg/bold/refresh.svg");
+}
+
+.mx-search {
+  --mx-icon-thin: url("../svg/thin/search.svg");
+  --mx-icon-regular: url("../svg/regular/search.svg");
+  --mx-icon-bold: url("../svg/bold/search.svg");
+}
+
+.mx-settings {
+  --mx-icon-thin: url("../svg/thin/settings.svg");
+  --mx-icon-regular: url("../svg/regular/settings.svg");
+  --mx-icon-bold: url("../svg/bold/settings.svg");
+}
+
+.mx-trash {
+  --mx-icon-thin: url("../svg/thin/trash.svg");
+  --mx-icon-regular: url("../svg/regular/trash.svg");
+  --mx-icon-bold: url("../svg/bold/trash.svg");
+}
+
+.mx-unlock {
+  --mx-icon-thin: url("../svg/thin/unlock.svg");
+  --mx-icon-regular: url("../svg/regular/unlock.svg");
+  --mx-icon-bold: url("../svg/bold/unlock.svg");
+}
+
+.mx-user {
+  --mx-icon-thin: url("../svg/thin/user.svg");
+  --mx-icon-regular: url("../svg/regular/user.svg");
+  --mx-icon-bold: url("../svg/bold/user.svg");
+}
+
+.mx-users {
+  --mx-icon-thin: url("../svg/thin/users.svg");
+  --mx-icon-regular: url("../svg/regular/users.svg");
+  --mx-icon-bold: url("../svg/bold/users.svg");
+}
+
+.mx-warning {
+  --mx-icon-thin: url("../svg/thin/warning.svg");
+  --mx-icon-regular: url("../svg/regular/warning.svg");
+  --mx-icon-bold: url("../svg/bold/warning.svg");
+}

@@ -1,0 +1,152 @@
+/* @blcklab/moexi-css 1.0.0 | Moexi core 1.1.1 | MIT */
+.mx {
+  --mx-icon: var(--mx-icon-regular);
+  display: inline-block;
+  inline-size: 1em;
+  block-size: 1em;
+  flex: 0 0 auto;
+  line-height: 1;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask-image: var(--mx-icon);
+  mask-image: var(--mx-icon);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  transform-origin: center;
+}
+.mx-thin { --mx-icon: var(--mx-icon-thin, var(--mx-icon-regular)); }
+.mx-regular { --mx-icon: var(--mx-icon-regular); }
+.mx-bold { --mx-icon: var(--mx-icon-bold, var(--mx-icon-regular)); }
+.mx-size-12 { inline-size: 12px; block-size: 12px; }
+.mx-size-14 { inline-size: 14px; block-size: 14px; }
+.mx-size-16 { inline-size: 16px; block-size: 16px; }
+.mx-size-18 { inline-size: 18px; block-size: 18px; }
+.mx-size-20 { inline-size: 20px; block-size: 20px; }
+.mx-size-24 { inline-size: 24px; block-size: 24px; }
+.mx-size-32 { inline-size: 32px; block-size: 32px; }
+.mx-size-40 { inline-size: 40px; block-size: 40px; }
+.mx-size-48 { inline-size: 48px; block-size: 48px; }
+
+.mx-archive {
+  --mx-icon-thin: url("../svg/thin/archive.svg");
+  --mx-icon-regular: url("../svg/regular/archive.svg");
+  --mx-icon-bold: url("../svg/bold/archive.svg");
+}
+
+.mx-clipboard {
+  --mx-icon-thin: url("../svg/thin/clipboard.svg");
+  --mx-icon-regular: url("../svg/regular/clipboard.svg");
+  --mx-icon-bold: url("../svg/bold/clipboard.svg");
+}
+
+.mx-clipboard-check {
+  --mx-icon-thin: url("../svg/thin/clipboard-check.svg");
+  --mx-icon-regular: url("../svg/regular/clipboard-check.svg");
+  --mx-icon-bold: url("../svg/bold/clipboard-check.svg");
+}
+
+.mx-copy {
+  --mx-icon-thin: url("../svg/thin/copy.svg");
+  --mx-icon-regular: url("../svg/regular/copy.svg");
+  --mx-icon-bold: url("../svg/bold/copy.svg");
+}
+
+.mx-download {
+  --mx-icon-thin: url("../svg/thin/download.svg");
+  --mx-icon-regular: url("../svg/regular/download.svg");
+  --mx-icon-bold: url("../svg/bold/download.svg");
+}
+
+.mx-file {
+  --mx-icon-thin: url("../svg/thin/file.svg");
+  --mx-icon-regular: url("../svg/regular/file.svg");
+  --mx-icon-bold: url("../svg/bold/file.svg");
+}
+
+.mx-file-check {
+  --mx-icon-thin: url("../svg/thin/file-check.svg");
+  --mx-icon-regular: url("../svg/regular/file-check.svg");
+  --mx-icon-bold: url("../svg/bold/file-check.svg");
+}
+
+.mx-file-code {
+  --mx-icon-thin: url("../svg/thin/file-code.svg");
+  --mx-icon-regular: url("../svg/regular/file-code.svg");
+  --mx-icon-bold: url("../svg/bold/file-code.svg");
+}
+
+.mx-file-minus {
+  --mx-icon-thin: url("../svg/thin/file-minus.svg");
+  --mx-icon-regular: url("../svg/regular/file-minus.svg");
+  --mx-icon-bold: url("../svg/bold/file-minus.svg");
+}
+
+.mx-file-plus {
+  --mx-icon-thin: url("../svg/thin/file-plus.svg");
+  --mx-icon-regular: url("../svg/regular/file-plus.svg");
+  --mx-icon-bold: url("../svg/bold/file-plus.svg");
+}
+
+.mx-file-search {
+  --mx-icon-thin: url("../svg/thin/file-search.svg");
+  --mx-icon-regular: url("../svg/regular/file-search.svg");
+  --mx-icon-bold: url("../svg/bold/file-search.svg");
+}
+
+.mx-file-text {
+  --mx-icon-thin: url("../svg/thin/file-text.svg");
+  --mx-icon-regular: url("../svg/regular/file-text.svg");
+  --mx-icon-bold: url("../svg/bold/file-text.svg");
+}
+
+.mx-folder {
+  --mx-icon-thin: url("../svg/thin/folder.svg");
+  --mx-icon-regular: url("../svg/regular/folder.svg");
+  --mx-icon-bold: url("../svg/bold/folder.svg");
+}
+
+.mx-folder-minus {
+  --mx-icon-thin: url("../svg/thin/folder-minus.svg");
+  --mx-icon-regular: url("../svg/regular/folder-minus.svg");
+  --mx-icon-bold: url("../svg/bold/folder-minus.svg");
+}
+
+.mx-folder-open {
+  --mx-icon-thin: url("../svg/thin/folder-open.svg");
+  --mx-icon-regular: url("../svg/regular/folder-open.svg");
+  --mx-icon-bold: url("../svg/bold/folder-open.svg");
+}
+
+.mx-folder-plus {
+  --mx-icon-thin: url("../svg/thin/folder-plus.svg");
+  --mx-icon-regular: url("../svg/regular/folder-plus.svg");
+  --mx-icon-bold: url("../svg/bold/folder-plus.svg");
+}
+
+.mx-image {
+  --mx-icon-thin: url("../svg/thin/image.svg");
+  --mx-icon-regular: url("../svg/regular/image.svg");
+  --mx-icon-bold: url("../svg/bold/image.svg");
+}
+
+.mx-paperclip {
+  --mx-icon-thin: url("../svg/thin/paperclip.svg");
+  --mx-icon-regular: url("../svg/regular/paperclip.svg");
+  --mx-icon-bold: url("../svg/bold/paperclip.svg");
+}
+
+.mx-save {
+  --mx-icon-thin: url("../svg/thin/save.svg");
+  --mx-icon-regular: url("../svg/regular/save.svg");
+  --mx-icon-bold: url("../svg/bold/save.svg");
+}
+
+.mx-upload {
+  --mx-icon-thin: url("../svg/thin/upload.svg");
+  --mx-icon-regular: url("../svg/regular/upload.svg");
+  --mx-icon-bold: url("../svg/bold/upload.svg");
+}

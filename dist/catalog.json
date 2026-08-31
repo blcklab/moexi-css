@@ -1,0 +1,1589 @@
+{
+  "name": "@blcklab/moexi-css",
+  "version": "1.0.0",
+  "coreVersion": "1.1.1",
+  "iconCount": 256,
+  "classPrefix": "mx",
+  "weights": [
+    "thin",
+    "regular",
+    "bold"
+  ],
+  "sizes": [
+    12,
+    14,
+    16,
+    18,
+    20,
+    24,
+    32,
+    40,
+    48
+  ],
+  "aliases": {
+    "console": "terminal",
+    "shell": "terminal",
+    "favorite": "heart",
+    "shine": "sparkle"
+  },
+  "categories": {
+    "ui": 20,
+    "navigation": 20,
+    "development": 20,
+    "files": 20,
+    "symbols": 20,
+    "communication": 26,
+    "media": 26,
+    "devices": 26,
+    "weather": 26,
+    "commerce": 26,
+    "lifestyle": 26
+  },
+  "icons": [
+    {
+      "name": "check",
+      "className": "mx mx-check",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "close",
+      "className": "mx mx-close",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "eye",
+      "className": "mx mx-eye",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "filter",
+      "className": "mx mx-filter",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "help-circle",
+      "className": "mx mx-help-circle",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "info",
+      "className": "mx mx-info",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "lock",
+      "className": "mx mx-lock",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "menu",
+      "className": "mx mx-menu",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "minus",
+      "className": "mx mx-minus",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "more-horizontal",
+      "className": "mx mx-more-horizontal",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "more-vertical",
+      "className": "mx mx-more-vertical",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "plus",
+      "className": "mx mx-plus",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "refresh",
+      "className": "mx mx-refresh",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "search",
+      "className": "mx mx-search",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "settings",
+      "className": "mx mx-settings",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "trash",
+      "className": "mx mx-trash",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "unlock",
+      "className": "mx mx-unlock",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "user",
+      "className": "mx mx-user",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "users",
+      "className": "mx mx-users",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "warning",
+      "className": "mx mx-warning",
+      "category": "ui",
+      "aliases": []
+    },
+    {
+      "name": "arrow-down",
+      "className": "mx mx-arrow-down",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "arrow-left",
+      "className": "mx mx-arrow-left",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "arrow-right",
+      "className": "mx mx-arrow-right",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "arrow-up",
+      "className": "mx mx-arrow-up",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "chevron-down",
+      "className": "mx mx-chevron-down",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "chevron-left",
+      "className": "mx mx-chevron-left",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "chevron-right",
+      "className": "mx mx-chevron-right",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "chevron-up",
+      "className": "mx mx-chevron-up",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "compass",
+      "className": "mx mx-compass",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "corner-up-left",
+      "className": "mx mx-corner-up-left",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "corner-up-right",
+      "className": "mx mx-corner-up-right",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "external-link",
+      "className": "mx mx-external-link",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "home",
+      "className": "mx mx-home",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "log-in",
+      "className": "mx mx-log-in",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "log-out",
+      "className": "mx mx-log-out",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "map-pin",
+      "className": "mx mx-map-pin",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "maximize",
+      "className": "mx mx-maximize",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "minimize",
+      "className": "mx mx-minimize",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "move",
+      "className": "mx mx-move",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "navigation",
+      "className": "mx mx-navigation",
+      "category": "navigation",
+      "aliases": []
+    },
+    {
+      "name": "api",
+      "className": "mx mx-api",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "binary",
+      "className": "mx mx-binary",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "braces",
+      "className": "mx mx-braces",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "brackets",
+      "className": "mx mx-brackets",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "bug",
+      "className": "mx mx-bug",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "code",
+      "className": "mx mx-code",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "command",
+      "className": "mx mx-command",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "cpu",
+      "className": "mx mx-cpu",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "database",
+      "className": "mx mx-database",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "function",
+      "className": "mx mx-function",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "git-branch",
+      "className": "mx mx-git-branch",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "git-commit",
+      "className": "mx mx-git-commit",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "hard-drive",
+      "className": "mx mx-hard-drive",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "layers",
+      "className": "mx mx-layers",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "network",
+      "className": "mx mx-network",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "package",
+      "className": "mx mx-package",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "server",
+      "className": "mx mx-server",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "terminal",
+      "className": "mx mx-terminal",
+      "category": "development",
+      "aliases": [
+        "console",
+        "shell"
+      ]
+    },
+    {
+      "name": "variable",
+      "className": "mx mx-variable",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "webhook",
+      "className": "mx mx-webhook",
+      "category": "development",
+      "aliases": []
+    },
+    {
+      "name": "archive",
+      "className": "mx mx-archive",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "clipboard",
+      "className": "mx mx-clipboard",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "clipboard-check",
+      "className": "mx mx-clipboard-check",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "copy",
+      "className": "mx mx-copy",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "download",
+      "className": "mx mx-download",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "file",
+      "className": "mx mx-file",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "file-check",
+      "className": "mx mx-file-check",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "file-code",
+      "className": "mx mx-file-code",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "file-minus",
+      "className": "mx mx-file-minus",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "file-plus",
+      "className": "mx mx-file-plus",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "file-search",
+      "className": "mx mx-file-search",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "file-text",
+      "className": "mx mx-file-text",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "folder",
+      "className": "mx mx-folder",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "folder-minus",
+      "className": "mx mx-folder-minus",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "folder-open",
+      "className": "mx mx-folder-open",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "folder-plus",
+      "className": "mx mx-folder-plus",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "image",
+      "className": "mx mx-image",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "paperclip",
+      "className": "mx mx-paperclip",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "save",
+      "className": "mx mx-save",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "upload",
+      "className": "mx mx-upload",
+      "category": "files",
+      "aliases": []
+    },
+    {
+      "name": "bell",
+      "className": "mx mx-bell",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "bookmark",
+      "className": "mx mx-bookmark",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "circle",
+      "className": "mx mx-circle",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "coffee",
+      "className": "mx mx-coffee",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "crown",
+      "className": "mx mx-crown",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "diamond",
+      "className": "mx mx-diamond",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "flag",
+      "className": "mx mx-flag",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "flame",
+      "className": "mx mx-flame",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "gift",
+      "className": "mx mx-gift",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "heart",
+      "className": "mx mx-heart",
+      "category": "symbols",
+      "aliases": [
+        "favorite"
+      ]
+    },
+    {
+      "name": "key",
+      "className": "mx mx-key",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "lightning",
+      "className": "mx mx-lightning",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "moon",
+      "className": "mx mx-moon",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "shield",
+      "className": "mx mx-shield",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "sparkle",
+      "className": "mx mx-sparkle",
+      "category": "symbols",
+      "aliases": [
+        "shine"
+      ]
+    },
+    {
+      "name": "square",
+      "className": "mx mx-square",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "star",
+      "className": "mx mx-star",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "sun",
+      "className": "mx mx-sun",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "tag",
+      "className": "mx mx-tag",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "triangle",
+      "className": "mx mx-triangle",
+      "category": "symbols",
+      "aliases": []
+    },
+    {
+      "name": "address-book",
+      "className": "mx mx-address-book",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "at-sign",
+      "className": "mx mx-at-sign",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "chat-heart",
+      "className": "mx mx-chat-heart",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "contact",
+      "className": "mx mx-contact",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "inbox",
+      "className": "mx mx-inbox",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "link",
+      "className": "mx mx-link",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "mail",
+      "className": "mx mx-mail",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "mail-open",
+      "className": "mx mx-mail-open",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "megaphone",
+      "className": "mx mx-megaphone",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "message-circle",
+      "className": "mx mx-message-circle",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "message-square",
+      "className": "mx mx-message-square",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "messages",
+      "className": "mx mx-messages",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "mic",
+      "className": "mx mx-mic",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "mic-off",
+      "className": "mx mx-mic-off",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "phone",
+      "className": "mx mx-phone",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "phone-call",
+      "className": "mx mx-phone-call",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "phone-incoming",
+      "className": "mx mx-phone-incoming",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "phone-off",
+      "className": "mx mx-phone-off",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "phone-outgoing",
+      "className": "mx mx-phone-outgoing",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "radio",
+      "className": "mx mx-radio",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "rss",
+      "className": "mx mx-rss",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "send",
+      "className": "mx mx-send",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "share",
+      "className": "mx mx-share",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "share-2",
+      "className": "mx mx-share-2",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "unlink",
+      "className": "mx mx-unlink",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "voicemail",
+      "className": "mx mx-voicemail",
+      "category": "communication",
+      "aliases": []
+    },
+    {
+      "name": "camera",
+      "className": "mx mx-camera",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "camera-off",
+      "className": "mx mx-camera-off",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "disc",
+      "className": "mx mx-disc",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "equalizer",
+      "className": "mx mx-equalizer",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "fast-forward",
+      "className": "mx mx-fast-forward",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "film",
+      "className": "mx mx-film",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "headphones",
+      "className": "mx mx-headphones",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "music",
+      "className": "mx mx-music",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "music-2",
+      "className": "mx mx-music-2",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "pause",
+      "className": "mx mx-pause",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "play",
+      "className": "mx mx-play",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "playlist",
+      "className": "mx mx-playlist",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "repeat",
+      "className": "mx mx-repeat",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "repeat-1",
+      "className": "mx mx-repeat-1",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "rewind",
+      "className": "mx mx-rewind",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "shuffle",
+      "className": "mx mx-shuffle",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "skip-back",
+      "className": "mx mx-skip-back",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "skip-forward",
+      "className": "mx mx-skip-forward",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "speaker",
+      "className": "mx mx-speaker",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "stop",
+      "className": "mx mx-stop",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "video",
+      "className": "mx mx-video",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "video-off",
+      "className": "mx mx-video-off",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "volume",
+      "className": "mx mx-volume",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "volume-1",
+      "className": "mx mx-volume-1",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "volume-2",
+      "className": "mx mx-volume-2",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "volume-x",
+      "className": "mx mx-volume-x",
+      "category": "media",
+      "aliases": []
+    },
+    {
+      "name": "battery",
+      "className": "mx mx-battery",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "battery-charging",
+      "className": "mx mx-battery-charging",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "battery-full",
+      "className": "mx mx-battery-full",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "battery-low",
+      "className": "mx mx-battery-low",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "battery-medium",
+      "className": "mx mx-battery-medium",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "bluetooth",
+      "className": "mx mx-bluetooth",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "gamepad",
+      "className": "mx mx-gamepad",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "keyboard",
+      "className": "mx mx-keyboard",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "laptop",
+      "className": "mx mx-laptop",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "memory-card",
+      "className": "mx mx-memory-card",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "monitor",
+      "className": "mx mx-monitor",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "mouse",
+      "className": "mx mx-mouse",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "plug",
+      "className": "mx mx-plug",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "power",
+      "className": "mx mx-power",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "printer",
+      "className": "mx mx-printer",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "qr-code",
+      "className": "mx mx-qr-code",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "router",
+      "className": "mx mx-router",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "scan",
+      "className": "mx mx-scan",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "smartphone",
+      "className": "mx mx-smartphone",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "tablet",
+      "className": "mx mx-tablet",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "tv",
+      "className": "mx mx-tv",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "usb",
+      "className": "mx mx-usb",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "watch",
+      "className": "mx mx-watch",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "webcam",
+      "className": "mx mx-webcam",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "wifi",
+      "className": "mx mx-wifi",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "wifi-off",
+      "className": "mx mx-wifi-off",
+      "category": "devices",
+      "aliases": []
+    },
+    {
+      "name": "cloud",
+      "className": "mx mx-cloud",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "cloud-lightning",
+      "className": "mx mx-cloud-lightning",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "cloud-moon",
+      "className": "mx mx-cloud-moon",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "cloud-rain",
+      "className": "mx mx-cloud-rain",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "cloud-snow",
+      "className": "mx mx-cloud-snow",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "cloud-sun",
+      "className": "mx mx-cloud-sun",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "droplet",
+      "className": "mx mx-droplet",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "droplets",
+      "className": "mx mx-droplets",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "earth",
+      "className": "mx mx-earth",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "flower",
+      "className": "mx mx-flower",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "globe",
+      "className": "mx mx-globe",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "leaf",
+      "className": "mx mx-leaf",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "mountain",
+      "className": "mx mx-mountain",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "rain",
+      "className": "mx mx-rain",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "rainbow",
+      "className": "mx mx-rainbow",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "snowflake",
+      "className": "mx mx-snowflake",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "snowman",
+      "className": "mx mx-snowman",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "sprout",
+      "className": "mx mx-sprout",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "sunrise",
+      "className": "mx mx-sunrise",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "sunset",
+      "className": "mx mx-sunset",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "thermometer",
+      "className": "mx mx-thermometer",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "tornado",
+      "className": "mx mx-tornado",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "tree",
+      "className": "mx mx-tree",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "umbrella",
+      "className": "mx mx-umbrella",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "waves",
+      "className": "mx mx-waves",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "wind",
+      "className": "mx mx-wind",
+      "category": "weather",
+      "aliases": []
+    },
+    {
+      "name": "badge-percent",
+      "className": "mx mx-badge-percent",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "banknote",
+      "className": "mx mx-banknote",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "barcode",
+      "className": "mx mx-barcode",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "basket",
+      "className": "mx mx-basket",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "briefcase",
+      "className": "mx mx-briefcase",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "building",
+      "className": "mx mx-building",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "calculator",
+      "className": "mx mx-calculator",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "chart-bar",
+      "className": "mx mx-chart-bar",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "chart-line",
+      "className": "mx mx-chart-line",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "chart-pie",
+      "className": "mx mx-chart-pie",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "coin",
+      "className": "mx mx-coin",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "coins",
+      "className": "mx mx-coins",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "coupon",
+      "className": "mx mx-coupon",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "credit-card",
+      "className": "mx mx-credit-card",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "dollar-sign",
+      "className": "mx mx-dollar-sign",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "handshake",
+      "className": "mx mx-handshake",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "percent",
+      "className": "mx mx-percent",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "receipt",
+      "className": "mx mx-receipt",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "shopping-bag",
+      "className": "mx mx-shopping-bag",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "shopping-cart",
+      "className": "mx mx-shopping-cart",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "store",
+      "className": "mx mx-store",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "storefront",
+      "className": "mx mx-storefront",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "ticket",
+      "className": "mx mx-ticket",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "trending-down",
+      "className": "mx mx-trending-down",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "trending-up",
+      "className": "mx mx-trending-up",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "wallet",
+      "className": "mx mx-wallet",
+      "category": "commerce",
+      "aliases": []
+    },
+    {
+      "name": "alarm-clock",
+      "className": "mx mx-alarm-clock",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "book",
+      "className": "mx mx-book",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "book-open",
+      "className": "mx mx-book-open",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "cake",
+      "className": "mx mx-cake",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "calendar",
+      "className": "mx mx-calendar",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "calendar-check",
+      "className": "mx mx-calendar-check",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "calendar-days",
+      "className": "mx mx-calendar-days",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "calendar-plus",
+      "className": "mx mx-calendar-plus",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "calendar-x",
+      "className": "mx mx-calendar-x",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "clock",
+      "className": "mx mx-clock",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "dumbbell",
+      "className": "mx mx-dumbbell",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "frown",
+      "className": "mx mx-frown",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "graduation-cap",
+      "className": "mx mx-graduation-cap",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "hourglass",
+      "className": "mx mx-hourglass",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "location",
+      "className": "mx mx-location",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "map",
+      "className": "mx mx-map",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "medal",
+      "className": "mx mx-medal",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "meh",
+      "className": "mx mx-meh",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "palette",
+      "className": "mx mx-palette",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "party-popper",
+      "className": "mx mx-party-popper",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "pin",
+      "className": "mx mx-pin",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "rocket",
+      "className": "mx mx-rocket",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "smile",
+      "className": "mx mx-smile",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "target",
+      "className": "mx mx-target",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "timer",
+      "className": "mx mx-timer",
+      "category": "lifestyle",
+      "aliases": []
+    },
+    {
+      "name": "trophy",
+      "className": "mx mx-trophy",
+      "category": "lifestyle",
+      "aliases": []
+    }
+  ],
+  "colorModel": "currentColor-mask",
+  "multicolor": false
+}

@@ -47,7 +47,7 @@
     "bootstrap-icons-alternative"
   ],
   "devDependencies": {
-    "@blcklab/moexi": "^1.1.0"
+    "@blcklab/moexi": "^1.1.1"
   },
   "repository": {
     "type": "git",
