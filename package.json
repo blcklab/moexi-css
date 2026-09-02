@@ -1,6 +1,6 @@
 {
   "name": "@blcklab/moexi-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSS-class adapter for Moexi icons: use premium kawaii SVG icons with classes like mx mx-search.",
   "license": "MIT",
   "sideEffects": [
