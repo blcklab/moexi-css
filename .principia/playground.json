@@ -13,7 +13,7 @@
         "provider": "jsdelivr-npm",
         "package": "@blcklab/moexi-css",
         "version": "1.0.0",
-        "path": "dist/playground.css"
+        "path": "dist/moexi.css"
       },
       "examplesRoot": ".principia/playground/moexi-css/examples",
       "defaultExample": "quick-start",
